@@ -22,7 +22,6 @@ import {Link, useNavigate } from 'react-router-dom'
     setPassword('')
     setConfirmPassword('')
   }
-console.time('timer')
    async function HandleSubmit(e) {
     e.preventDefault()
     try {
@@ -49,7 +48,6 @@ console.time('timer')
       console.log(error)
     }
   }
-  console.timeEnd('timer')
   return (
     <div className='form-Container'>
         

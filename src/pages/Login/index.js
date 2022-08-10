@@ -16,8 +16,6 @@ import useGlobalContext from '../../hooks/useGlobalContext'
   const navigate = useNavigate()
   
   
-  
-
   function HandleReset(){
     setEmail('')
     setPassword('')
@@ -43,16 +41,8 @@ import useGlobalContext from '../../hooks/useGlobalContext'
         const { usuario, token } = response.data
 
         navigate('/Home')
-
-       
-
-
-       
        setToken(token)
        setUser(usuario)
-
- 
-       
     } catch (error) {
       console.log(error)
     }
