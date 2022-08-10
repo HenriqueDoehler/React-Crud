@@ -1,0 +1,15 @@
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: blueviolet;
+    justify-content: space-between;
+}
+img  {
+    margin: 1% 1%;
+    cursor: pointer;
+}
+.logo {
+    margin: 1% 1%;
+    
+}

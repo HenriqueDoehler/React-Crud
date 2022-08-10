@@ -1,0 +1,29 @@
+.form-Container-signIn  {
+display: flex;
+width: 100vw;
+height: 100vh;
+}
+.title-form {
+margin-bottom: 10px;
+}
+
+.form-inputs-signIn  {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 400px;
+width: 50%;
+margin: 20 0%;
+padding: 0 25%;
+}
+.form-Container-signIn img{
+width: 100vw;
+min-height: 100vh;
+object-fit: cover;
+
+}
+ .form-inputs-sign-In TextField {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

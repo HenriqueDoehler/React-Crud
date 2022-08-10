@@ -1,0 +1,29 @@
+.backdrop{
+    background-color: rgba(0, 0, 0, 0.345);
+    position: fixed; 
+    left: 0;
+    top: 0;
+    width: 100vw;
+    min-height: 100vh; 
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.container-modal-add {
+    background-color: rgba(240, 248, 255, 0.677);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5%;
+    
+}
+ 
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
