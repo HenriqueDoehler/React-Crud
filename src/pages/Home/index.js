@@ -89,7 +89,7 @@ export default function SimpleContainer() {
         disableSelectionOnClick
         selectionModel={selectionModel}
         onSelectionModelChange={(newSelectionModel) => {
-          setSelectionModel(newSelectionModel);
+        setSelectionModel(newSelectionModel);
         }}
       />
     </Box>
